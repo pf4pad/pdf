@@ -1,1 +1,114 @@
+* {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+body{
 
+    font-size: 20px;
+    line-height: inherit;
+}
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 920px;
+}
+.title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.descr {
+    font-size: 18px;
+    
+    margin-bottom: 20px;
+}
+.descr_bold {
+    font-weight: bold;
+}
+
+.question{
+    font-size: 22px; 
+    margin-bottom: 20px;
+ 
+}
+
+.types{
+    font-size: 22px; 
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.type{
+    font-size: 20px; 
+    
+}
+.table {
+    display: flex;
+    border-bottom: 2px solid #000;
+    gap: 40px;
+   
+}
+
+.table:first-child {
+    border-top: 1px solid #000;
+}
+.table-items {
+    border-top: 1px solid #000;
+    
+}
+.table-items:not(:last-child) {
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+   
+}
+
+.left {
+    padding: 10px;
+    border-right: 2px solid #000;
+    
+}
+
+.left img{
+
+width: 180px;
+}
+
+.rigth {
+    padding: 10px;
+    
+}
+
+.rigth ul{
+    margin-bottom: 30px;
+}
+
+.title_fiches{
+    font-size: 22px; 
+    margin-bottom: 40px;
+    text-align: center;
+}
+.image_fiches {
+    float:left; 
+    margin:10px;
+    margin-top:0px;
+}
+.fiches_text {
+    margin-bottom: 40px;
+}
+
+.fiches_text p{
+    margin-bottom: 30px;
+}
+
+.list-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
